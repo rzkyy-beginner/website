@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Rzky | Biodata</title>
+  <meta name="description" content="Biodata Nama Lengkap Anda, pelajar keamanan siber.">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+  <meta http-equiv="Content-Security-Policy"
+        content="default-src 'none'; script-src 'self'; style-src 'self' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; img-src 'self' data:; base-uri 'none'; form-action 'none'">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,400;6..72,600&family=Instrument+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+
+  <div class="progress" aria-hidden="true"></div>
+
+  <header class="nav">
+    <a class="brand" href="#beranda">
+<img class="brand-mark"
+     src="img/photoweb1.jpg"
+     alt=""
+     width="96" height="96">
+      <span class="brand-name">Rzky</span>
+    </a>
+
+    <input type="checkbox" id="menu-toggle" class="menu-toggle" aria-label="Buka menu navigasi">
+    <label for="menu-toggle" class="menu-button" aria-hidden="true"><span></span></label>
+
+    <nav aria-label="Navigasi utama">
+      <ul>
+        <li><a href="#beranda">Beranda</a></li>
+        <li><a href="#tentang">About Me</a></li>
+        <li><a href="#pendidikan">Pendidikan</a></li>
+        <li><a href="#keahlian">Keahlian</a></li>
+        <li><a href="#sertifikat">Sertifikat</a></li>
+        <li><a href="#kontak">Kontak</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- BERANDA -->
+    <section id="beranda" class="grid hero">
+      <article class="box s8 profile">
+        <!-- Untuk foto asli, ganti div.avatar dengan:
+             <img class="avatar" src="foto.jpg" alt="Foto Nama Lengkap Anda"> -->
+ <img class="avatar"
+     src="img/photoweb1.jpg"
+     alt=""
+     width="600" height="600">      
+        <div>
+          <h1>Rizky Maulana Akbar</h1>
+          <p class="role">Cyber Security Enthusiast, CTF Player</p>
+          <p class="lead">Belajar menemukan celah sebelum orang lain memanfaatkannya.</p>
+          <a class="button" href="#kontak">Contact</a>
+        </div>
+      </article>
+
+      <aside class="box s4">
+        <h2>Informasi singkat</h2>
+        <ul class="quick">
+          <li><span>Status</span>SMK Teknik Komputer dan Jaringan</li>
+          <li><span>Lokasi</span>Mojokerto, Jawa Timur</li>
+          <li><span>Fokus</span>Keamanan Jaringan</li>
+          <li><span>Ketersediaan</span>Belum siap untuk magang</li>
+        </ul>
+      </aside>
+    </section>
+
+    <!-- TENTANG -->
+    <section id="tentang" class="grid">
+      <article class="box s5">
+        <h2>Data diri</h2>
+        <dl class="facts">
+          <div><dt>Nama lengkap</dt><dd>Rizky Maulana Akbar</dd></div>
+          <div><dt>Tempat, tahun lahir</dt><dd>Mojokerto, 2010</dd></div>
+          <div><dt>Domisili</dt><dd>Mojokerto, Jawa Timur</dd></div>
+          <div><dt>Bahasa</dt><dd>Indonesia, Inggris</dd></div>
+        </dl>
+      </article>
+
+      <article class="box s7">
+        <h2>About Me</h2>
+        <p>Halo!, Saya Rizky Maulana Akbar siswa Kelas 10 SMK Negeri 1 Kota Mojokerto Jurusan Teknik Komputer dan Jaringan yang memiliki minat besar di dunia infrastruktur IT, Administrasi Sistem Linux, dan keamanan siber. </p>
+        <p>Berpengalaman merancang dan mengelola environment berbasis Linux (Arch & Kali) serta memanfaatkannya untuk analisis jaringan, reverse engineering, dan penetration testing. Aktif mengeksplorasi tantangan keamanan teknis dan CTF.</p>
+        <ul class="tags">
+          <li>Keamanan jaringan</li>
+          <li>Pengujian web</li>
+          <li>Linux</li>
+          <li>CTF</li>
+        </ul>
+      </article>
+    </section>
+
+    <!-- PENDIDIKAN -->
+    <section id="pendidikan" class="grid">
+      <article class="box s12">
+        <h2>Pendidikan dan pengalaman</h2>
+        <ol class="timeline">
+          <li>
+            <time>2026</time>
+            <h3>Kelas 10 Teknik Komputer dan Jaringan, SMK Negeri 1 Mojokerto</h3>
+            <p>Belajar Tentang dasar dasar jaringan, fundamental IP, Cicso packet tracer dasar, Mikrotik dasar.</p>
+          </li>
+          <li>
+            <time>2026</time>
+            <h3>Peserta kompetisi CTF tingkat nasional</h3>
+            <p>Mengikuti IONIC dan Mengerjakan soal kategori Reverse Engineering dan Cryptography bersama tim.</p>
+          </li>
+          <li>
+            <time>2026 sampai saat ini</time>
+            <h3>SMK, Teknik Komputer dan Jaringan</h3>
+            <p>Fokus mempelajari bidang cyber security untuk kompetisi CTF berikutnya.</p>
+          </li>
+        </ol>
+      </article>
+    </section>
+
+    <!-- KEAHLIAN -->
+    <section id="keahlian" class="grid">
+      <article class="box s7">
+        <h2>Statistik Keahlian</h2>
+        <ul class="bars">
+          <li><span>Keamanan jaringan</span><div class="bar lv-70"></div></li>
+          <li><span>Pengujian keamanan web</span><div class="bar lv-60"></div></li>
+          <li><span>Linux dan Bash</span><div class="bar lv-90"></div></li>
+          <li><span>Python</span><div class="bar lv-60"></div></li>
+        </ul>
+      </article>
+
+      <article class="box s5">
+        <h2>Alat yang saya pakai</h2>
+        <ul class="tags">
+          <li>Ghidra</li>
+          <li>Nmap</li>
+          <li>John The Ripper</li>
+          <li>Kali Linux</li>
+          <li>Autopsy</li>
+        </ul>
+      </article>
+    </section>
+
+    <!-- SERTIFIKAT -->
+    <section id="sertifikat" class="grid">
+      <article class="box s12">
+        <h2>Sertifikat</h2>
+        <p>Daftar sertifikat dan penghargaan yang saya peroleh. Setiap sertifikat bisa diverifikasi lewat tautan kredensial dari penerbitnya.</p>
+      </article>
+
+      <article class="box cert s4">
+        <img class="cert-img"
+       src="img/cyberbasic.jpg"
+       alt=""
+       width="800" height="566"
+       loading="lazy">
+        <h3>Cyber Security Dasar IDN</h3>
+        <p class="issuer">ID Network</p>
+        <p class="meta">Terbit 2026 &middot; ID: LIDN-9284818252<br>
+          <a href="learn.idn.id/sertifikat" target="_blank" rel="noopener noreferrer">Verifikasi kredensial</a></p>
+      </article>
+
+      <article class="box cert s4">
+        <div class="cert-badge" aria-hidden="true">CS</div>
+        <h3>Coming Soon </h3>
+        <p class="issuer">coming soon</p>
+        <p class="meta"> &middot; <br>
+          <a href="https://verify.example.com/def456" target="_blank" rel="noopener noreferrer">Verifikasi kredensial</a></p>
+      </article>
+
+      <article class="box cert s4">
+        <div class="cert-badge" aria-hidden="true">CS</div>
+        <h3>Coming Soon</h3>
+        <p class="issuer"></p>
+        <p class="meta"> &middot; <br>
+          <a href="https://verify.example.com/ghi789" target="_blank" rel="noopener noreferrer">Verifikasi kredensial</a></p>
+      </article>
+
+      <article class="box cert s4">
+        <div class="cert-badge" aria-hidden="true">CS</div>
+        <h3>Coming Soon</h3>
+        <p class="issuer"></p>
+        <p class="meta"> &middot; <br>
+          <a href="https://verify.example.com/jkl012" target="_blank" rel="noopener noreferrer">Verifikasi kredensial</a></p>
+      </article>
+
+      <article class="box cert s4">
+        <div class="cert-badge" aria-hidden="true">CS</div>
+        <h3>Coming Soon</h3>
+        <p class="issuer"></p>
+        <p class="meta"> &middot; <br>
+          <a href="https://verify.example.com/mno345" target="_blank" rel="noopener noreferrer">Verifikasi kredensial</a></p>
+      </article>
+
+      <article class="box cert s4">
+        <div class="cert-badge" aria-hidden="true">CS</div>
+        <h3>Coming Soon</h3>
+        <p class="issuer">Panitia Kompetisi Contoh</p>
+        <p class="meta">Terbit 2024 &middot; Kategori web dan kriptografi<br>
+          <a href="https://verify.example.com/ctf2024" target="_blank" rel="noopener noreferrer">Lihat pengumuman</a></p>
+      </article>
+    </section>
+
+    <!-- KONTAK -->
+    <section id="kontak" class="grid">
+      <article class="box s12">
+        <h2>Contact</h2>
+        <p>Untuk kolaborasi atau pertanyaan, hubungi lewat salah satu jalur di bawah.</p>
+        <div class="contact">
+          <a class="box-link" href="mailto:rizkyakbar6610@gmail.com"><span>Email</span>rizkyakbar6610@gmail.com</a>
+          <a class="box-link" href="https://github.com/username" target="_blank" rel="noopener noreferrer"><span>GitHub</span>github.com/rzkyy-beginner</a>
+          <a class="box-link" href="https://linkedin.com/in/username" target="_blank" rel="noopener noreferrer"><span>LinkedIn</span>linkedin.com/in/rizky</a>
+        </div>
+      </article>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <p>Rizky Maulana Akbar, 2026</p>
+  </footer>
+
+</body>
+</html>
