@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Rzky | Biodata</title>
-  <meta name="description" content="Biodata Nama Lengkap Anda, pelajar keamanan siber.">
+  <meta name="description" content="Biodata Rizky Maulana Akbar, pelajar keamanan siber.">
   <meta name="referrer" content="strict-origin-when-cross-origin">
   <meta http-equiv="Content-Security-Policy"
         content="default-src 'none'; script-src 'self'; style-src 'self' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; img-src 'self' data:; base-uri 'none'; form-action 'none'">
@@ -15,21 +15,15 @@
   <script src="script.js" defer></script>
 </head>
 <body>
-
   <div class="progress" aria-hidden="true"></div>
 
   <header class="nav">
     <a class="brand" href="#beranda">
-<img class="brand-mark"
-     src="img/photoweb1.jpg"
-     alt=""
-     width="96" height="96">
+      <img class="brand-mark" src="img/photoweb1.jpg" alt="" width="96" height="96">
       <span class="brand-name">Rzky</span>
     </a>
-
     <input type="checkbox" id="menu-toggle" class="menu-toggle" aria-label="Buka menu navigasi">
     <label for="menu-toggle" class="menu-button" aria-hidden="true"><span></span></label>
-
     <nav aria-label="Navigasi utama">
       <ul>
         <li><a href="#beranda">Beranda</a></li>
@@ -43,19 +37,12 @@
   </header>
 
   <main>
-
-    <!-- BERANDA -->
     <section id="beranda" class="grid hero">
       <article class="box s8 profile">
-        <!-- Untuk foto asli, ganti div.avatar dengan:
-             <img class="avatar" src="foto.jpg" alt="Foto Nama Lengkap Anda"> -->
- <img class="avatar"
-     src="img/photoweb1.jpg"
-     alt=""
-     width="600" height="600">      
+        <img class="avatar" src="img/photoweb1.jpg" alt="Foto Rizky Maulana Akbar" width="600" height="600">
         <div>
           <h1>Rizky Maulana Akbar</h1>
-          <p class="role">Cyber Security Enthusiast, CTF Player</p>
+          <p class="role" data-roles="Pelajar Keamanan Siber|Peserta CTF|Reverse Engineering Beginner|Network Enthusiast">Pelajar Keamanan Siber</p>
           <p class="lead">Belajar menemukan celah sebelum orang lain memanfaatkannya.</p>
           <a class="button" href="#kontak">Contact</a>
         </div>
@@ -72,7 +59,6 @@
       </aside>
     </section>
 
-    <!-- TENTANG -->
     <section id="tentang" class="grid">
       <article class="box s5">
         <h2>Data diri</h2>
@@ -86,18 +72,22 @@
 
       <article class="box s7">
         <h2>About Me</h2>
-        <p>Halo!, Saya Rizky Maulana Akbar siswa Kelas 10 SMK Negeri 1 Kota Mojokerto Jurusan Teknik Komputer dan Jaringan yang memiliki minat besar di dunia infrastruktur IT, Administrasi Sistem Linux, dan keamanan siber. </p>
-        <p>Berpengalaman merancang dan mengelola environment berbasis Linux (Arch & Kali) serta memanfaatkannya untuk analisis jaringan, reverse engineering, dan penetration testing. Aktif mengeksplorasi tantangan keamanan teknis dan CTF.</p>
-        <ul class="tags">
-          <li>Keamanan jaringan</li>
-          <li>Pengujian web</li>
-          <li>Linux</li>
-          <li>CTF</li>
-        </ul>
+        <div class="term">
+          <div class="term-bar" aria-hidden="true"><i></i><i></i><i></i><span>rizky@kali: ~</span></div>
+          <div class="term-body">
+            <p class="ln"><b class="ps">rizky@kali:~$</b><span class="cmd c1">whoami</span></p>
+            <p class="out o1">Rizky Maulana Akbar, siswa Kelas 10 TKJ, SMK Negeri 1 Kota Mojokerto.</p>
+            <p class="ln"><b class="ps">rizky@kali:~$</b><span class="cmd c2">cat about.txt</span></p>
+            <p class="out o2">Halo! Saya punya minat besar di infrastruktur IT, administrasi sistem Linux, dan keamanan siber.</p>
+            <p class="out o3">Berpengalaman merancang dan mengelola environment Linux (Arch &amp; Kali) untuk analisis jaringan, reverse engineering, dan penetration testing. Aktif mengeksplorasi tantangan keamanan teknis dan CTF.</p>
+            <p class="ln"><b class="ps">rizky@kali:~$</b><span class="cmd c3">ls skills/</span></p>
+            <p class="out o4">keamanan-jaringan&nbsp; pengujian-web&nbsp; linux&nbsp; ctf</p>
+            <p class="ln o5"><b class="ps">rizky@kali:~$</b><span class="caret"></span></p>
+          </div>
+        </div>
       </article>
     </section>
 
-    <!-- PENDIDIKAN -->
     <section id="pendidikan" class="grid">
       <article class="box s12">
         <h2>Pendidikan dan pengalaman</h2>
@@ -105,23 +95,22 @@
           <li>
             <time>2026</time>
             <h3>Kelas 10 Teknik Komputer dan Jaringan, SMK Negeri 1 Mojokerto</h3>
-            <p>Belajar Tentang dasar dasar jaringan, fundamental IP, Cicso packet tracer dasar, Mikrotik dasar.</p>
+            <p>Belajar dasar-dasar jaringan, fundamental IP, Cisco Packet Tracer dasar, dan MikroTik dasar.</p>
           </li>
           <li>
             <time>2026</time>
             <h3>Peserta kompetisi CTF tingkat nasional</h3>
-            <p>Mengikuti IONIC dan Mengerjakan soal kategori Reverse Engineering dan Cryptography bersama tim.</p>
+            <p>Mengikuti IONIC dan mengerjakan soal kategori Reverse Engineering dan Cryptography bersama tim.</p>
           </li>
           <li>
             <time>2026 sampai saat ini</time>
             <h3>SMK, Teknik Komputer dan Jaringan</h3>
-            <p>Fokus mempelajari bidang cyber security untuk kompetisi CTF berikutnya.</p>
+            <p>Fokus mempelajari cyber security untuk kompetisi CTF berikutnya.</p>
           </li>
         </ol>
       </article>
     </section>
 
-    <!-- KEAHLIAN -->
     <section id="keahlian" class="grid">
       <article class="box s7">
         <h2>Statistik Keahlian</h2>
@@ -132,20 +121,14 @@
           <li><span>Python</span><div class="bar lv-60"></div></li>
         </ul>
       </article>
-
       <article class="box s5">
         <h2>Alat yang saya pakai</h2>
         <ul class="tags">
-          <li>Ghidra</li>
-          <li>Nmap</li>
-          <li>John The Ripper</li>
-          <li>Kali Linux</li>
-          <li>Autopsy</li>
+          <li>Ghidra</li><li>Nmap</li><li>John The Ripper</li><li>Kali Linux</li><li>Autopsy</li>
         </ul>
       </article>
     </section>
 
-    <!-- SERTIFIKAT -->
     <section id="sertifikat" class="grid">
       <article class="box s12">
         <h2>Sertifikat</h2>
@@ -153,76 +136,33 @@
       </article>
 
       <article class="box cert s4">
-        <img class="cert-img"
-       src="img/cyberbasic.jpg"
-       alt=""
-       width="800" height="566"
-       loading="lazy">
+        <img class="cert-img" src="img/cyberbasic.jpg" alt="Sertifikat Cyber Security Dasar dari ID Network" width="800" height="566" loading="lazy">
         <h3>Cyber Security Dasar IDN</h3>
         <p class="issuer">ID Network</p>
         <p class="meta">Terbit 2026 &middot; ID: LIDN-9284818252<br>
-          <a href="learn.idn.id/sertifikat" target="_blank" rel="noopener noreferrer">Verifikasi kredensial</a></p>
+          <a href="https://learn.idn.id/sertifikat" target="_blank" rel="noopener noreferrer">Verifikasi kredensial</a></p>
       </article>
 
-      <article class="box cert s4">
-        <div class="cert-badge" aria-hidden="true">CS</div>
-        <h3>Coming Soon </h3>
-        <p class="issuer">coming soon</p>
-        <p class="meta"> &middot; <br>
-          <a href="https://verify.example.com/def456" target="_blank" rel="noopener noreferrer">Verifikasi kredensial</a></p>
-      </article>
-
-      <article class="box cert s4">
-        <div class="cert-badge" aria-hidden="true">CS</div>
-        <h3>Coming Soon</h3>
-        <p class="issuer"></p>
-        <p class="meta"> &middot; <br>
-          <a href="https://verify.example.com/ghi789" target="_blank" rel="noopener noreferrer">Verifikasi kredensial</a></p>
-      </article>
-
-      <article class="box cert s4">
-        <div class="cert-badge" aria-hidden="true">CS</div>
-        <h3>Coming Soon</h3>
-        <p class="issuer"></p>
-        <p class="meta"> &middot; <br>
-          <a href="https://verify.example.com/jkl012" target="_blank" rel="noopener noreferrer">Verifikasi kredensial</a></p>
-      </article>
-
-      <article class="box cert s4">
-        <div class="cert-badge" aria-hidden="true">CS</div>
-        <h3>Coming Soon</h3>
-        <p class="issuer"></p>
-        <p class="meta"> &middot; <br>
-          <a href="https://verify.example.com/mno345" target="_blank" rel="noopener noreferrer">Verifikasi kredensial</a></p>
-      </article>
-
-      <article class="box cert s4">
-        <div class="cert-badge" aria-hidden="true">CS</div>
-        <h3>Coming Soon</h3>
-        <p class="issuer"></p>
-        <p class="meta"> &middot; <br>
-          <a href="https://verify.example.com/ctf2024" target="_blank" rel="noopener noreferrer">Lihat pengumuman</a></p>
-      </article>
+      <article class="box cert s4"><div class="cert-badge" aria-hidden="true">Coming Soon</div><h3>Segera hadir</h3><p class="meta">Sertifikat berikutnya sedang dikerjakan.</p></article>
+      <article class="box cert s4"><div class="cert-badge" aria-hidden="true">Coming Soon</div><h3>Segera hadir</h3><p class="meta">Sertifikat berikutnya sedang dikerjakan.</p></article>
+      <article class="box cert s4"><div class="cert-badge" aria-hidden="true">Coming Soon</div><h3>Segera hadir</h3><p class="meta">Sertifikat berikutnya sedang dikerjakan.</p></article>
+      <article class="box cert s4"><div class="cert-badge" aria-hidden="true">Coming Soon</div><h3>Segera hadir</h3><p class="meta">Sertifikat berikutnya sedang dikerjakan.</p></article>
+      <article class="box cert s4"><div class="cert-badge" aria-hidden="true">Coming Soon</div><h3>Segera hadir</h3><p class="meta">Sertifikat berikutnya sedang dikerjakan.</p></article>
     </section>
 
-    <!-- KONTAK -->
     <section id="kontak" class="grid">
       <article class="box s12">
         <h2>Contact</h2>
         <p>Untuk kolaborasi atau pertanyaan, hubungi lewat salah satu jalur di bawah.</p>
         <div class="contact">
           <a class="box-link" href="mailto:rizkyakbar6610@gmail.com"><span>Email</span>rizkyakbar6610@gmail.com</a>
-          <a class="box-link" href="https://github.com/username" target="_blank" rel="noopener noreferrer"><span>GitHub</span>github.com/rzkyy-beginner</a>
-          <a class="box-link" href="https://linkedin.com/in/username" target="_blank" rel="noopener noreferrer"><span>LinkedIn</span>linkedin.com/in/rizky</a>
+          <a class="box-link" href="https://github.com/rzkyy-beginner" target="_blank" rel="noopener noreferrer"><span>GitHub</span>github.com/rzkyy-beginner</a>
+          <a class="box-link" href="https://linkedin.com/in/rizky" target="_blank" rel="noopener noreferrer"><span>LinkedIn</span>linkedin.com/in/rizky</a>
         </div>
       </article>
     </section>
-
   </main>
 
-  <footer class="footer">
-    <p>Rizky Maulana Akbar, 2026</p>
-  </footer>
-
+  <footer class="footer"><p>Rizky Maulana Akbar, 2026</p></footer>
 </body>
 </html>
